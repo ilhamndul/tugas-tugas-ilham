@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan percabangan</title>
+</head>
+<body>
+   <form action=""method="post"onsubmit="return false">
+    masukan nama <input type="text"id="nama"><br>
+    masukan usia <input type="number="id="usia"><br>
+    <button onclick="cek()">cek status</button>
+   </form>
+     <p id="hasil"></p>
+
+     <script>
+        function cek() {
+            let nama=document.getElementById('nama').value
+            let usia= document.getElementById('usia').value
+            if (usia >= 90) {
+                document.getElementById('hasil').innerHTML = `${nama}, Kamu mendapatkan predikat A`
+            } else if (usia >= 80) {
+                document.getElementById('hasil').innerHTML = `${nama}, Kamu mendapatkan predikat B`
+            } else if (usia >= 70) {
+                document.getElementById('hasil').innerHTML = `${nama}, Kamu mendapatkan predikat C`
+            } else if (usia >= 60) {
+                document.getElementById('hasil').innerHTML = `${nama}, Kamu mendapatkan predikat D`
+            } else {
+                document.getElementById('hasil').innerHTML = `${nama}, Kamu mendapatkan predikat E`
+            }
+        }
+     </script>
+
+        </body>
+        </html>
