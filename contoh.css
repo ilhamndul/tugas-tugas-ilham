@@ -6,14 +6,14 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: 7AB2D3;
+    background-color: peru ;
     color: #333;
     line-height: 1.6;
 }
 
 header {
-    background-color: 7AB2D3;
-    color: rgb(164, 167, 173);
+    background-color:#3e78c0;
+    color: rgb(204, 97, 26);
     text-align: center;
     padding: 20px;
 }
@@ -23,20 +23,20 @@ h1 {
 }
 
 h2 {
-    color: #3a5b7a;
+    color: #1b5489;
     margin-bottom: 15px;
 }
 
 .hadis-section {
     padding: 20px;
     margin: 20px;
-    background-color: #ffffff;
+    background-color: #509adf;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .hadis-container, .arti-container {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .hadis-container p {
@@ -46,7 +46,7 @@ h2 {
 
 .arti-container p {
     font-size: 1rem;
-    color: #555;
+    color: #c21010;
 }
 
 .sholat-section {
@@ -55,17 +55,17 @@ h2 {
 }
 
 .sholat-image img {
-    max-width: 100%;
+    max-width: 500%;
     height: auto;
-    border-radius: 16px;
+    border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #111b4d;
-    color:pink;
+    background-color: #656b8c;
+    color:rgb(22, 101, 144);
     position: fixed;
     width: 100%;
     bottom: 0;

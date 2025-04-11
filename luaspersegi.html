@@ -1,0 +1,16 @@
+orm action="" method="post" onsubmit="return false">
+  masukan panjang persegi <input type="number" name="" id="alas" /> masukan lebar persegi <input type="number" name="" id="tinggi" />
+  <button onclick="hitung()">hitung luas</button>
+  <p id="hasil"></p>
+</form>
+
+
+
+<script>
+  function hitung() {
+    let alas = document.getElementById('alas').value;
+    let tinggi = document.getElementById('tinggi').v
+    let luas = 0.5 * alas * tinggi;
+    document.getElementById('hasil').innerHTML = luas
+  }
+</script>
